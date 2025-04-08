@@ -23,3 +23,5 @@ go.work.sum
 
 # env file
 .env
+*.swp
+cmd/asn1kvpairs-key2int/asn1kvpairs-key2int
