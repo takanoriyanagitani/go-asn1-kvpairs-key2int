@@ -1,0 +1,27 @@
+KeyToInt DEFINITIONS ::= BEGIN
+
+  OriginalPair ::= SEQUENCE {
+	  key UTF8String,
+	  val UTF8String
+  }
+
+  NormalizedPair ::= SEQUENCE {
+	  key INTEGER,
+	  val UTF8String
+  }
+
+  OriginalPairs ::= SEQUENCE OF OriginalPair
+
+  NormalizedPairs ::= SEQUENCE OF NormalizedPair
+
+  OriginalRow ::= OriginalPairs
+  NoramzliedRow ::= NormalizedPairs
+
+  KeyToIntMapItem ::= SEQUENCE {
+	  originalKey UTF8String,
+	  mapdSerial INTEGER
+  }
+
+  KeyToIntMapItems ::= SEQUENCE OF KeyToIntMapItem
+
+END
