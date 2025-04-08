@@ -1,0 +1,3 @@
+0‚]0#	timestamp2025-04-07T07:09:01.0Z0severityinfo02
+message_id$cafef00d-dead-beaf-face-8642997924580messagerequest processed.0http_methodGET0urlhttp://example.com/0http_status2000tagshttp,read_only0version1.0.00instancetest-container0machine
+bare-metal0imagetest-image:1.0.00architecturearm64
