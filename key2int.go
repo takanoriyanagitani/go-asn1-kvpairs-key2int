@@ -54,7 +54,7 @@ func (c StrToInt) Normalize(o OriginalPair) (NormalizedPair, error) {
 	var rawKey string = o.Key
 	key, found := c[rawKey]
 
-	ret := NormalizedPair{}
+	var ret NormalizedPair
 	ret.Key = key
 	ret.Val = o.Val
 
